@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Variable</title>
+</head>
+<body>
+    <h1>Java Script Const</h1>
+    <p>Declaring a constant array does NOT make the elements unchangeable</p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+      let fruits = ["Apple","Banana","Orange"]
+      document.getElementById("demo1").innerHTML = fruits
+      fruits[0] = "Apricot";
+      fruits.push("Mango")
+      document.getElementById("demo2").innerHTML = fruits
+    </script>
+</body>
+</html>
